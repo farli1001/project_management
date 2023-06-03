@@ -1,0 +1,101 @@
+.progress-bar-red {
+  background-color: red;
+}
+
+.progress-bar-orange {
+  background-color: orange;
+}
+
+.progress-bar-yellow {
+  background-color: yellow;
+}
+.progress-bar-lightgreen {
+  background-color: lightgreen;
+}
+.progress-bar-mediumseagreen {
+  background-color: mediumseagreen;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.task-item .alert {
+  flex: 0 0 auto;
+  width: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.task-item .alert {
+  font-size: 12px;
+}
+.task-item:hover {
+  cursor: pointer;
+  background-color: #f8f9fa;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Tambahan CSS */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item .task-name {
+  display: flex;
+  align-items: center;
+}
+
+.task-item .task-name .percentage {
+  margin-left: 10px;
+}
+
+.task-item .dropdown {
+  margin-left: auto;
+}
+.progress-bar::after {
+  content: attr(aria-valuenow) "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: grey;
+  /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
+}
+.red-button {
+  background-color: red;
+  color: white;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.yellow-button {
+  background-color: yellow;
+  color: black;
+}
+
+.blue-button {
+  background-color: blue;
+  color: white;
+}
+.
+
+
+body {
+  background-color: #f0f7fa;
+}

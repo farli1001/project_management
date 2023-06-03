@@ -1,0 +1,32 @@
+.progress-bar-red {
+  background-color: red;
+}
+
+.progress-bar-orange {
+  background-color: orange;
+}
+
+.progress-bar-yellow {
+  background-color: yellow;
+}
+.progress-bar-lightgreen {
+  background-color: lightgreen;
+}
+.progress-bar-mediumseagreen {
+  background-color: mediumseagreen;
+}
+.progress-bar::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: grey;
+  /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
+}
+
+
+
+
+
+  
+
